@@ -118,3 +118,38 @@
     align-self: flex-end;
     font-size: 18px;
 }
+
+
+#actionsection {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+#calltoaction {
+    background-color: #3882F6;
+    border-radius: 4px;
+    padding: 50px 200px 50px 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#button2 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    margin: 10px 25px 10px 175px;
+    padding: 5px 40px 5px 40px;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+}
+#callhead {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#signuptext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
