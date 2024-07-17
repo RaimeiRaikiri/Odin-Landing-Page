@@ -26,29 +26,38 @@
 
 #firstsection {
     display: flex;
-    padding: 60px 225px 0px 225px;
+    padding: 120px 225px 0px 225px;
 }
 #imgcontainer {
-    max-width: 300px;
-    max-height: 300px;
-    padding-left: 20px;
+    width: 480px;
+    height: 250px;
+    padding-left: 70px;
 }
 #stockimg {
-    width: 300px;
-    height: 300px;
+    width: 480px;
+    height: 250px;
 }
 #textcontainter {
-    width: 300px;
-    height: 300px;
+    width: 480px;
+    height: 250px;
 }
 .maintext {
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
     margin: 0px;
+    width: 480px;
+    
 }
 .secondarytext {
     color: #E5E7EB;
     font-size: 18px;
-    
+    width: 480px;
+}
+#firstbutton {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 10px 25px 10px 25px;
+    border-radius: 8px;
+    border: 0px;
 }
