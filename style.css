@@ -2,17 +2,25 @@
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    padding-bottom: 60px;
 }
-
 #headers {
     display: flex;
     justify-content: space-between;
     padding:20px 225px 0px 225px;
 }
-
 #headerlinks {
     display: flex;
 }
 .headlink {
     padding: 0px 10px 0px 10px;
+}
+
+#firstsection {
+    display: flex;
+    padding: 60px 225px 0px 225px;
+}
+#stockimg {
+    max-width: 300px;
+    max-height: 300px;
 }
