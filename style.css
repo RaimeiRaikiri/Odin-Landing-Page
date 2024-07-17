@@ -24,6 +24,7 @@
     font-size: 24px;
 }
 
+
 #firstsection {
     display: flex;
     padding: 120px 225px 0px 225px;
@@ -47,7 +48,6 @@
     color: #F9FAF8;
     margin: 0px;
     width: 480px;
-    
 }
 .secondarytext {
     color: #E5E7EB;
@@ -60,4 +60,36 @@
     padding: 10px 25px 10px 25px;
     border-radius: 8px;
     border: 0px;
+}
+
+
+#secondsection {
+    display: flex;
+    flex-direction: column;
+}
+#secondheader {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px 50px 0px;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+#imgscontainer {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 300px;
+    padding-left: 300px;
+    text-align: center;
+}
+.img2 {
+    border: 2px solid #3882F6;
+    border-radius: 4px;
+    width: 150px;
+}
+.imgsubtextbox {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
